@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#081c43" />
+  <meta name="description" content="EVมานี่มา — an independent Tesla model showcase and EV editorial website." />
+  <title>EVมานี่มา — Tesla Model Journal & Showroom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Sans+Thai:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span>ELECTRIC JOURNAL · VOL. 001</span><span class="announcement-center">THE FUTURE IS ELECTRIC</span><span>EV CULTURE / WORLDWIDE</span></div>
+  <header class="site-header" id="top">
+    <a class="logo" href="#top" aria-label="EVมานี่มา home"><span class="logo-symbol">EV</span><span class="logo-text">EV<span>มานี่มา</span><small>TESLA SHOWROOM & EV JOURNAL</small></span></a>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation"><a href="#stories">THE JOURNAL</a><a href="#collection">TESLA MODELS</a><a href="#about">OUR STORY</a><a href="#contact">CONTACT</a></nav>
+    <div class="header-actions"><button class="search-toggle" id="searchToggle" aria-label="Search stories" title="Search stories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg></button><a class="header-cta" href="#collection">EXPLORE CARS <span>↗</span></a><button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button></div>
+  </header>
+  <div class="search-bar" id="searchBar" hidden><div class="search-inner"><label for="searchInput">SEARCH THE ARCHIVE</label><input id="searchInput" type="search" placeholder="Try “Model 3”, “charging”, or “technology”..." /><button id="closeSearch" aria-label="Close search">✕</button></div></div>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-photo" role="img" aria-label="Electric vehicle editorial showcase"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-side">EVมานี่มา <span>—</span> ELECTRIC MOBILITY</div>
+      <div class="hero-content"><div class="eyebrow"><i></i> INDEPENDENT EV JOURNAL & SHOWROOM <span> / ISSUE 001</span></div><p class="hero-jp">未来を走ろう。</p><h1 id="heroTitle">DRIVE THE <em>FUTURE.</em><br/>FEEL THE <span>POWER.</span></h1><p class="hero-copy">Explore Tesla’s electric lineup, striking design, and the stories shaping a new era of driving.</p><div class="hero-buttons"><a class="btn btn-light" href="#stories">EXPLORE THE JOURNAL <span>↗</span></a><a class="btn btn-outline" href="#collection">VIEW TESLA MODELS <span>→</span></a></div></div>
+      <div class="hero-bottom"><span>01 / 04 &nbsp; <b>THE ELECTRIC ERA</b></span><span class="scroll-text">SCROLL TO EXPLORE <span>↓</span></span><span>電気・日本 &nbsp; / &nbsp; TOKYO, JAPAN</span></div>
+      <div class="vertical-mark" aria-hidden="true">電気の未来</div>
+    </section>
+
+    <section class="ticker" aria-label="Tesla model lineup"><div class="ticker-track">MODEL 3 <b>✦</b> MODEL Y <b>✦</b> MODEL S <b>✦</b> MODEL X <b>✦</b> CYBERTRUCK <b>✦</b> ALL ELECTRIC <b>✦</b> MODEL 3 <b>✦</b> MODEL Y <b>✦</b></div></section>
+
+    <section class="intro content-width" id="stories"><div><p class="section-kicker">01 / THE JOURNAL <span>— 電気自動車</span></p><h2>STORIES FROM<br/><em>THE FUTURE.</em></h2></div><div class="intro-right"><p>From electric performance to road-trip technology: thoughtful stories about the Tesla driving experience.</p><span>DESIGNED FOR THE CURIOUS. BUILT FOR THE DRIVE.</span></div></section>
+
+    <section class="journal content-width"><div class="journal-tools"><div class="filters" id="filters" role="group" aria-label="Filter stories"><button class="filter active" data-filter="all" aria-pressed="true">ALL STORIES <span>06</span></button><button class="filter" data-filter="culture" aria-pressed="false">LIFESTYLE</button><button class="filter" data-filter="legends" aria-pressed="false">MODELS</button><button class="filter" data-filter="garage" aria-pressed="false">EV GUIDES</button></div><span class="sort-label">THE ARCHIVE / ELECTRIC ERA</span></div><div class="stories-grid" id="storiesGrid"></div><div class="empty-state" id="emptyState" hidden><h3>NO STORIES FOUND.</h3><p>Try another search or select a different category.</p><button class="btn btn-blue" id="resetSearch">RESET FILTERS ↗</button></div><div class="journal-footer"><span>END OF THE ARCHIVE — FOR NOW.</span><a href="#contact">GOT A STORY? TELL US <span>↗</span></a></div></section>
+
+    <section class="manifesto" id="about"><div class="manifesto-inner content-width"><div class="manifesto-stamp">EV / TH <span>電気</span></div><div class="manifesto-main"><p class="section-kicker">OUR POINT OF VIEW — 私たちについて</p><h2>MORE THAN CARS.<br/><em>A NEW ERA.</em></h2><p>EVมานี่มา is an independent editorial showcase for Tesla models, electric mobility, minimalist design, and the everyday experience of driving electric.</p><a href="#collection" class="text-link">MEET THE MACHINES <span>↗</span></a></div><div class="manifesto-vertical">未来へ走る。</div></div></section>
+
+    <section class="collection content-width" id="collection"><div class="collection-heading"><div><p class="section-kicker">02 / THE SHOWROOM <span>— モデル</span></p><h2>MEET THE<br/><em>LINEUP.</em></h2></div><p>Explore five standout Tesla models. These are editorial showcase cards, not live inventory or offers for sale.</p></div><div class="car-grid" id="carGrid"></div><div class="collection-note"><span>✳</span> CURIOUS ABOUT A MODEL? EXPLORE THE OFFICIAL TESLA WEBSITE. <a href="https://www.tesla.com/" target="_blank" rel="noopener noreferrer">TESLA WEBSITE ↗</a></div></section>
+
+    <section class="newsletter" id="contact"><div class="newsletter-pattern" aria-hidden="true">電気</div><div class="newsletter-content content-width"><div><p class="section-kicker">03 / STAY CONNECTED</p><h2>STAY AHEAD<br/><em>OF THE CURVE.</em></h2><p>New model stories, EV guides and design notes. An independent perspective on the electric road ahead.</p></div><form id="newsletterForm" class="newsletter-form"><label for="emailInput">JOIN THE ELECTRIC EDIT</label><div class="newsletter-input"><input type="email" id="emailInput" placeholder="YOUR EMAIL ADDRESS" required /><button type="submit" aria-label="Subscribe">↗</button></div><small id="formMessage" role="status">BY SUBSCRIBING, YOU AGREE TO RECEIVE UPDATES.</small></form></div></section>
+  </main>
+  <footer class="footer"><div class="footer-top content-width"><a class="logo footer-logo" href="#top"><span class="logo-symbol">EV</span><span class="logo-text">EV<span>มานี่มา</span><small>TESLA SHOWROOM & EV JOURNAL</small></span></a><p>FOR THE DRIVE OF TOMORROW.<br/>FOR THE JOURNEY TODAY.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></div><div class="footer-bottom content-width"><span>© <span id="year"></span> EVมานี่มา. MADE FOR THE DRIVE.</span><span>EV COMMUNITY / EVERY MILE HAS A STORY</span><span>POWERED BY <b>♥</b> FOR ELECTRIC CARS</span></div><div class="content-width" style="font-size:10px;color:#879cbe;padding-bottom:25px;line-height:1.8">Independent fan-made editorial concept. Not affiliated with or endorsed by Tesla, Inc. Photos: contributors on Wikimedia Commons; see README for credits and license links. Model listings are illustrative, not live inventory.</div></footer>
+  <dialog class="article-dialog" id="articleDialog" aria-labelledby="dialogTitle"><button class="dialog-close" id="dialogClose" aria-label="Close article">✕</button><div id="articleContent"></div></dialog>
+</body>
+</html>
